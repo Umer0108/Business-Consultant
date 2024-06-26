@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="BG_pic.jpg" href="conversation.png">
+</head>
+
+<body>
+    <header>
+        <div style="padding: 10px 10px 0px 10px;">
+            <img src="logo.png" alt="Company Logo" style="width: 150px;">
+        </div>
+        <nav style="border-bottom: black solid;">
+            <div class="nav-links">
+                <input style=" width:300px; height: 3vh;" type="search" placeholder="Search...">
+                <div><a href="#">Home</a></div>
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">Services</a>
+                    <div class="dropdown-content">
+                        <a href="#">Tech platfoms</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Artificial intelligence</a>
+                            <a href="#">Accounting software</a>
+                            <a href="#">Robotics information</a>
+                        </div>
+                        <a href="#">Technology Consulting</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Financial consulting</a>
+                            <a href="#">Network security</a>
+                            <a href="#">Infrastructure Planning</a>
+                        </div>
+                        <a href="#">Digital Strategy</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Content marketing</a>
+                            <a href="#">Advertising</a>
+                            <a href="#">E-commerce</a>
+                        </div>
+                    </div>
+                </div>
+                <div><a href="#">Insights</a></div>
+                <div><a href="#">About Us</a></div>
+                <div><a href="#">Careers</a></div>
+                <div><a href="#">Contact</a></div>
+            </div>
+            <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
+        </nav>
+    </header>
+
+    <section>
+        <div>
+            <h1>Transform Your Business</h1>
+            <p>We help you envision, inspire, and transform your business.</p>
+            <a href="#">Talk to an Expert</a>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Navigating Business Challenges – Together</h2>
+            <p>Successfully navigating business challenges means diving deep into your market to gain clarity on issues and opportunities. Then, you can establish a compelling and inspiring vision, develop world-class capabilities, build a culture of agility, and deliver value in a rapid, agile fashion.<br><br>
+                <a href="#">CONTACT US FOR HELP WITH YOUR BUSINESS CHALLENGES</a></p>
+
+            <div>
+                <div>
+                    <img src="1.png" alt="" srcset=""></div>
+
+                <div>
+                    <p>
+                        A lack of understanding of business and customer insights.
+                        <br><a href="">Learn More:</a>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="2.png" alt="" srcset="">
+                </div>
+                
+                <div>
+                    <p>
+                        Uncertainty about current or future market realities.
+                        <br><a href="">Learn More:</a>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="3.png" alt="" srcset="">
+                </div>
+                
+                <div>
+                    <p>
+                        A misaligned vision and strategy.
+                        <br><a href="">Learn More:</a>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="4.png" alt="" srcset="">
+                </div>
+                
+                <div>
+                    <p>
+                        Difficulty innovating or quickly launching new capabilities.
+                        <br><a href="">Learn More:</a>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="5.png" alt="" srcset=""></div>
+                <div>
+                    <p>
+                        Poor strategy execution and value realization.
+                        <br><a href="">Learn More:</a>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="6.png" alt="" srcset="">
+                </div>
+                
+                <div>
+                    <p>
+                        A culture of complacency or change fatigue.
+                        <br><a href="">Learn More:</a>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="7.png" alt="" srcset="">
+                </div>
+                
+                <div>
+                    <p>
+                        An overall lack of business agility across employees, process and technology.
+                        <br><a href="">Learn More:</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div>
+            <div onclick="toggleServiceDetails(this)">
+                <h3 style="margin:20px 20px 20px 20px;">Business Consulting</h3>
+                <p style="margin-bottom: 20px;">Adapting to today's market dynamics and competing effectively.</p>
+                <sna>More over:</sna>
+                <div class="service-details">
+                    <p>Details about Business Consulting services.</p>
+                    <div style="padding:20px 20px;">
+                        <div>Strategy Development</div>
+                        <div>Operational Improvement</div>
+                        <div>Change Management</div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="toggleServiceDetails(this)">
+                <h3 style="margin:20px 20px 20px 20px;">Technology Consulting</h3>
+                <p style="margin-bottom: 20px;">Driving innovation and efficiency through technology.</p>
+                <sna>More over:</sna>
+                <div class="service-details">
+                    <p>Details about Technology Consulting services.</p>
+                    <div style="padding:20px 20px;">
+                        <div>IT Strategy</div>
+                        <div>System Integration</div>
+                        <div>Cybersecurity</div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="toggleServiceDetails(this)">
+                <h3 style="margin:20px 20px 20px 20px;">Marketing Consulting</h3>
+                <p style="margin-bottom: 20px;">Strategies to reach your target audience and grow your brand.</p>
+                <sna>More over:</sna>
+                <div class="service-details">
+                    <p>Details about Marketing Consulting services.</p>
+                    <div style="padding:20px 20px;">
+                        <div>Market Analysis</div>
+                        <div>Brand Strategy</div>
+                        <div>Digital Marketing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service" onclick="toggleServiceDetails(this)">
+                <h3 style="margin:20px 20px 20px 20px;">Financial Consulting</h3>
+                <p style="margin-bottom: 20px;">Financial analysis, planning, and advisory services.</p>
+                <sna>More over:</sna>
+                <div class="service-details">
+                    <p>Details about Financial Consulting services.</p>
+                    <div style="padding:20px 20px;">
+                        <div>Financial Planning</div>
+                        <div>Investment Advice</div>
+                        <div>Risk Management</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            <a href="#" style="text-decoration: none;">PRIVACY POLICY</a>
+            <a href="#" style="text-decoration: none;">TERMS OF USES</a>
+            <a href="#" style="text-decoration: none;">SITE FEEDBACK</a>
+        </div>
+        <div>
+            <p>&copy; 2024 Professional Consulting. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('menu-open');
+        }
+
+        function toggleServiceDetails(serviceElement) {
+            const serviceDetails = serviceElement.querySelector('.service-details');
+            serviceDetails.classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>
